@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CFBundleIconFile</key>
+	<string>bitcoin.icns</string>
+	<key>CFBundlePackageType</key>
+	<string>APPL</string>
+	<key>CFBundleGetInfoString</key>
+	<string>$VERSION, Copyright © 2014-$YEAR The Jumbucks developers</string>
+	<key>CFBundleShortVersionString</key>
+	<string>$VERSION</string>
+	<key>CFBundleVersion</key>
+	<string>$VERSION</string>
+	<key>CFBundleSignature</key>
+	<string>????</string>
+	<key>CFBundleExecutable</key>
+	<string>Jumbucks-Qt</string>
+	<key>CFBundleIdentifier</key>
+	<string>com.getjumbucks.Jumbucks-Qt</string>
+	<key>CFBundleURLTypes</key>
+	<array>
+		<dict>
+			<key>CFBundleTypeRole</key>
+			<string>Editor</string>
+			<key>CFBundleURLName</key>
+			<string>com.getjumbucks.JumbucksPayment</string>
+			<key>CFBundleURLSchemes</key>
+			<array>
+				<string>jumbucks</string>
+			</array>
+		</dict>
+	</array>
+	<key>NSHighResolutionCapable</key>
+	<true/>
+	<key>NSPrincipalClass</key>
+	<string>NSApplication</string>
+	<key>LSAppNapIsDisabled</key>
+	<string>True</string>
+</dict>
+</plist>
