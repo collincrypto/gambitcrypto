@@ -25,7 +25,7 @@ class CInv;
 class CNode;
 
 static const int64_t ICO = 2500000 * COIN;
-static const int LAST_POW_BLOCK = 10000;
+static const int LAST_POW_BLOCK = 15000;
 
 static const unsigned int MAX_BLOCK_SIZE = 1000000;
 static const unsigned int MAX_BLOCK_SIZE_GEN = MAX_BLOCK_SIZE/2;
